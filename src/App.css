@@ -1,4 +1,5 @@
-body{
-  padding: 1%;
-  margin: 1%;
-}
+/* Custom CSS for navbar background color */
+.bg-custom-color {
+    background-color:#1995AD;
+  }
+  
