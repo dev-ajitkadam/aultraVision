@@ -8,12 +8,15 @@ import About from './Pages/About';
 import Services from './Pages/Services';
 import Login from './Pages/Login';
 import Contact from './Pages/Contact';
+import Slider from './Component/Slider';
 
 function App() {
   return (
     <BrowserRouter>
+    <div className='App'>
     <NavBar/>
-    <div className="max-w-screen-md mx-auto pt-20">
+    <Slider/>
+    <div>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
@@ -22,7 +25,7 @@ function App() {
         <Route path="/contact" element={<Contact/>} />
       </Routes>
       </div>
-      <Footer/>
+      <Footer/></div>
     </BrowserRouter>
   );
 }

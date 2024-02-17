@@ -1,5 +1,49 @@
 /* Custom CSS for navbar background color */
+*{
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color:#179178;
+}
+
+.App {
+  background-color: #e2e7e6;
+}
 .bg-custom-color {
-    background-color:#1995AD;
+    background-color:#173F5F;
+  }
+
+  #navbar{
+    width: 100%;
+    border: none;
+  }
+
+  .navbar {
+    width: 100%;
+  }
+
+  .footer{
+    background-color:#37475a;
+  }
+  /* slider */
+  .slider {
+    background-color:#FFBB00;
+  }
+
+  /* home */
+  .bg-custom-colors {
+    background-color:#C4DFE6;
+  }
+
+  .oranges{
+    color: orange;
+  }
+
+  /* footer */
+  .text-light {
+    /* Set your desired light color */
   }
   
