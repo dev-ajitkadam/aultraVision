@@ -4,10 +4,13 @@ import Contact from "./Contact";
 function Services() {
   return (
     <div>
+      <div class="main">
+        <h2 id="ab-1">Chemical Testing Services</h2>
+    </div>
       <div className="container text-light">
         
-        <div class="D1 form-control-lg">
-          <h1 className="text-center">Chemical Testing</h1>
+        <div class="D1 form-control-lg my-3 ">
+          
           <p>
             <b>Chemical testing</b> in construction is a vital process involving
             the analysis of various materials to ensure their quality, safety,
@@ -28,8 +31,8 @@ function Services() {
           </p>
         </div>
 
-        <div class="D2 form-control-lg">
-          <h2 id="D" className="text-center">Ordinary Portland Cement (OPC)</h2>
+        <div class="D2 form-control-lg my-3">
+          <h2 id="D" className="text-center">1. Ordinary Portland Cement (OPC)</h2>
           <p>
             Ordinary Portland Cement (OPC) is a fundamental component in
             construction, widely used for its versatility and strength. It is
@@ -52,8 +55,8 @@ function Services() {
           </p>
         </div>
 
-        <div class="D3 form-control-lg">
-          <h3 className="text-center">Portland Pozzolana Cement (PPC):</h3>
+        <div class="D3 form-control-lg my-3">
+          <h3 className="text-center">2. Portland Pozzolana Cement (PPC):</h3>
 
           <p>
             Portland Pozzolana Cement (PPC) is a type of cement widely used in
@@ -76,8 +79,8 @@ function Services() {
             infrastructure with reduced environmental impact.
           </p>
         </div>
-        <div class="D3 form-control-lg">
-          <h3 className="text-center">Admixture:</h3>
+        <div class="D3 form-control-lg my-3">
+          <h3 className="text-center">3. Admixture:</h3>
 
           <p>
             Admixtures play a crucial role in modern construction practices,
@@ -103,8 +106,8 @@ function Services() {
             regulatory standards in the construction industry.
           </p>
         </div>
-        <div class="D3 form-control-lg">
-          <h3 className="text-center">Bentonite:</h3>
+        <div class="D3 form-control-lg my-3">
+          <h3 className="text-center">4. Bentonite:</h3>
 
           <p>
             Bentonite, a type of clay mineral with unique properties, plays a
@@ -129,8 +132,8 @@ function Services() {
             construction projects.
           </p>
         </div>
-        <div class="D3 form-control-lg">
-          <h3 className="text-center">Flyash:</h3>
+        <div class="D3 form-control-lg my-3">
+          <h3 className="text-center">5. Flyash:</h3>
 
           <p >
             Fly ash, a byproduct of coal combustion in power plants, is widely
@@ -153,8 +156,8 @@ function Services() {
             performance, and reduced environmental impact.
           </p>
         </div>
-        <div class="D3 form-control-lg">
-          <h3 className="text-center">Pozzolanic Materials Flyash:</h3>
+        <div class="D3 form-control-lg my-3">
+          <h3 className="text-center">6. Pozzolanic Materials Flyash:</h3>
 
           <p>
             Pozzolanic materials like fly ash, derived from coal combustion in
@@ -177,13 +180,13 @@ function Services() {
             environmental impacts.
           </p>
         </div>
+        <div class="main container-fluid">
+        <h2 id="ab-1">Mechanical Testing Services</h2>
+    </div>
+        
 
-        <h1 className="justify-content-center form-control-lg fw-bold form-control-lg mach  text-center">
-          Mechanical Testing Information
-        </h1>
-
-        <div class="D1 form-control-lg">
-          <h3 className="text-center">Bitumen Penetration Macadam</h3>
+        <div class="D1 form-control-lg my-3">
+          <h3 className="text-center">1. Bitumen Penetration Macadam</h3>
           <p>
             <b>Penetration Test</b> This test measures the hardness or
             consistency of bitumen by determining the depth to which a standard
@@ -199,8 +202,8 @@ function Services() {
           </p>
         </div>
 
-        <div class="D2 form-control-lg">
-          <h3 id="D" className="text-center">Bricks (AR Bricks)</h3>
+        <div class="D2 form-control-lg my-3">
+          <h3 id="D" className="text-center">2. Bricks (AR Bricks)</h3>
           <p>
             <b>Compressive Strength Test</b> This test determines the maximum
             compressive load a brick can withstand before failure. A brick
@@ -218,8 +221,8 @@ function Services() {
           </p>
         </div>
 
-        <div class="D3 form-control-lg">
-          <h3 className="text-center">Cement Concrete Tiles</h3>
+        <div class="D3 form-control-lg my-3">
+          <h3 className="text-center">3. Cement Concrete Tiles</h3>
           <p>
             <b>Flexural Strength Test</b> This test measures the ability of
             cement concrete tiles to withstand bending stresses. A specimen is

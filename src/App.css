@@ -25,8 +25,18 @@ body {
     width: 100%;
   }
 
+  .borderse{
+    border: 2px solid transparent;
+}
+.borderse:hover{
+    border: 2px solid white;
+}
+
   .footer{
-    background-color:#37475a;
+    background-color:#222f3d;
+  }
+  .footers{
+    background-color: #37475a;
   }
   /* slider */
   .slider {
@@ -39,13 +49,42 @@ body {
   }
 
   .lorn{
-    background-color: #00ffab;
+   
     color: #F72798;
+    
   }
 
   .oranges{
     color: orange;
   }
+
+  .video-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    text-align: center;
+    justify-content: center;
+    color: #ffffff;
+  }
+  
 
   /* footer */
  
@@ -56,23 +95,16 @@ body {
 }
 
 .D1, .D2, .D3 {
-    width: 100%; 
-    background-color: #173F5F;
-    margin: 1rem; 
-    padding: 1rem;
+    background-color: #ffffff;
+    color: black;
 }
 
 /* About */
-
-.main{
-    
-  padding-top: 25px;
-  height: 100px;
-  width:1536px;
-  background-color: #656772;
-  font-size: 40px;
-  font-family: arial;
+.form-floating.filled label {
+  opacity: 0;
+  
 }
+
 
 #ab-1{
   color: white;
@@ -80,9 +112,7 @@ body {
 }
 .about-us{ 
   display: flex;
-  padding: 0% 25% 0% 25%;
- 
-  height: 400px;
+  
 
   background-color: #012b3a;
     
@@ -92,10 +122,6 @@ body {
 
 }
 
-.mrg-btn{
- padding: 15px;
- 
-}
 .text{
 
  color: rgb(240, 229, 229);
@@ -104,62 +130,16 @@ body {
 .text h2{
   font-size: 90px;
   font-weight: 600;
-  margin-bottom: 10px;
+
 }
 .text h5{
   font-weight: 500;
   font-size: 30px;
   font-weight: 800;
-  margin-bottom: 20px;
   text-align: center;
 }
 
-.text p{
-  font-size: 18px;
-  line-height: 25px;
-  letter-spacing: 1px;
-}
-
-.contact{
-  margin-top: 50px;
-  width: auto;
-  height: 500px;
-}
-
-.wh-are-h5{
-  font-size: 30px;
-  font-weight: 800;
-}
-.ldr-main{
-  padding: 50px;
-}
-.ldr{
-  height: 20rem;
-  text-align: center;
-  margin: 0 361px;
-  background-color: #eceff0;
-  padding-top: 2rem;
-}
-.rm-drctr{
-font-size: 20px;
-}
-.aml-drctr{
-  margin-top: 6rem;
-  font-size: 20px;
-}
-.clr-1{
-  color: red;
-  
-}
-
-.h11{
-  margin-bottom: 50px; 
-  margin-left: 460px;
-}
-
-.h12{
-  margin-bottom: 50px;
-}
-.h13{
-  margin-bottom: 50px;
+.main{
+background-color: #179178;
+padding: 1rem;
 }

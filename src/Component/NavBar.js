@@ -11,7 +11,7 @@ function NavBar() {
       <Navbar
         variant="dark"
         expand="lg"
-        className="form-control-lg text-light bg-custom-color"
+        className="form-control-lg text-light bg-custom-color borderse"
         style={{ border: 'none', borderRadius: 0 ,}}
       >
         <Container>
@@ -23,7 +23,7 @@ function NavBar() {
 
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto p-1 flex-fill">
-              <Nav.Link as={Link} to="/" className="nav-link text-light">
+              <Nav.Link as={Link} to="/" className="nav-link text-light borders">
                 Home
               </Nav.Link>
               <Nav.Link as={Link} to="/services" className="nav-link text-light">
@@ -38,7 +38,7 @@ function NavBar() {
             </Nav>
 
             <div className="col-md-3">
-              <Button variant="outline-primary" className="me-2">
+              <Button variant="outline-primary" className="me-2 text-light">
                 Login
               </Button>
               <Button variant="primary">Sign-up</Button>

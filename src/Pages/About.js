@@ -1,65 +1,56 @@
-import React from 'react'
+import React from 'react';
 
 function About() {
   return (
-    <div>
-      <div class="main">
+    <div className="container-fluid form-control-lg text-white">
+      <div className="main">
         <h2 id="ab-1">About Us</h2>
-    </div>
-    <section class="about-us has-text-align-center ">
+      </div>
 
-        <div class="text">
-
-            <h5 class="has-text-align-center mrg-btn ">Overview</h5>
-            <h1 className='h12'>___________________________________</h1>
-            <p>
-                Ultra Vision Test House Private Limited is an unlisted private company incorporated on 06 November,
-                2023. It is classified as a private limited company and is located in, Maharashtra. It's authorized
-                share capital is INR 1.00 lac and the total paid-up capital is INR 1.00 lac.<br/>
-                Details of the last annual general meeting of Ultra Vision Test House Private Limited are not available.
-                The company is yet to submit its first full-year financial statements to the registrar
-            </p>
-
+      <section className="about-us text-center py-5">
+        <div className="container">
+          <h5 className="mrg-btn">Overview</h5>
+          <hr className="my-4" />
+          <p className="lead">
+            Altra Vision Test House Private Limited is an unlisted private company incorporated on 06 November,
+            2023. It is classified as a private limited company and is located in Maharashtra. Its authorized
+            share capital is INR 1.00 lac, and the total paid-up capital is INR 1.00 lac.<br />
+            Details of the last annual general meeting of Altra Vision Test House Private Limited are not available.
+            The company is yet to submit its first full-year financial statements to the registrar.
+          </p>
         </div>
+      </section>
 
-    </section>
-    <div class="ldr-main">
-        <h5 class="has-text-align-center mrg-btn  wh-are-h5">Who we are</h5>
-        <h1 className='h11'>__________________________</h1>
-        <div class="ldr">
-            <div class="rm-drctr">
-                <p class="clr-1">Ram Birajdar</p>
-
-                <p>
-                    Diretor Altravision
-                </p>
+      <div className="container shadow-sm p-5 text-dark">
+        <h5 className="mrg-btn text-center">Who we are</h5>
+        <hr className="my-4" />
+        <div className="row">
+          <div className="col-md-6">
+            <div className="rm-drctr">
+              <p className="clr-1">Ram Birajdar = Diretor Altravision</p>
             </div>
-            <div class="aml-drctr">
-                <p class="clr-1">Amol Randive</p>
-                <p>
-                    Diretor Altravision
-                </p>
+          </div>
+          <div className="col-md-6">
+            <div className="aml-drctr">
+              <p className="clr-1">Amol Randive = Diretor Altravision</p>
             </div>
+          </div>
         </div>
-    </div>
+      </div>
 
-    <section class="about-us has-text-align-center ">
-
-        <div class="text">
-
-            <h5 class="has-text-align-center mrg-btn ">How we work</h5>
-            <h1 className='h13'>___________________________________</h1>
-            <p>
-                Cement testing is a procedure used to determine the quality and characteristics of Cement. These tests
-                include physical, chemical, and performance testing. The most common cement tests include compressive
-                strength, setting time, soundness, and fineness.
-            </p>
-
+      <section className="about-us text-center py-5">
+        <div className="container">
+          <h5 className="mrg-btn">How we work</h5>
+          <hr className="my-4" />
+          <p className="lead">
+            Cement testing is a procedure used to determine the quality and characteristics of Cement. These tests
+            include physical, chemical, and performance testing. The most common cement tests include compressive
+            strength, setting time, soundness, and fineness.
+          </p>
         </div>
-
-    </section>
+      </section>
     </div>
-  )
+  );
 }
 
-export default About
+export default About;
