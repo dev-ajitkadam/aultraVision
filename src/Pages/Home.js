@@ -11,8 +11,8 @@ function Home() {
   };
 
   return (
-    <div className="p-2">
-      <div className="position-relative overflow-hidden p-md-3 m-md-1 text-center bg-custom-colors form-control-lg">
+    <div className="p-3 pt-2 pb-2">
+      <div className="position-relative overflow-hidden p-md-3 m-md-1 text-center lorn form-control-lg shadow-sm">
         <div className="col-md-6 p-lg-5 mx-auto my-5">
           <h1 className="display-3 fw-bold">ALTRAAVISON TEST HOUSE PVT.LTD</h1>
           <h3 className="fw-normal text-muted mb-3">
@@ -35,10 +35,9 @@ function Home() {
       </div>
 
       {/* Services */}
-      <div className="product-device shadow-sm d-none d-md-block"></div>
-      <div className="product-device product-device-2 shadow-sm d-none d-md-block "></div>
+  
 
-      <div className="container px-4 py-5" id="hanging-icons">
+      <div className="container px-4 py-5 text-center pt-2 pb-2" id="hanging-icons">
         <h2 className="pb-1 border-bottom text-center display-6 fw-bold">
           Services
         </h2>
@@ -78,15 +77,16 @@ function Home() {
                 upcoming year, including additional assessments beyond testing
               </p>
               <a href="#" className="btn btn-primary">
-                Primary button
+                Discover More..
               </a>
             </div>
           </div>
         </div>
         {/* Call Now */}
 
-        <div className="container my-5">
-          <div className="p-5 text-center rounded-3 bg-custom-colors py-5">
+      </div>
+      <div className="position-relative overflow-hidden p-md-3 m-md-2 text-center shadow-sm">
+          <div className="bg-custom-colors py-3 form-control-lg">
             <h3 className="oranges bold">We Ensure our Performance Meet your Expectations!</h3>
             <h1 className="text-body-emphasis">EXPERTISE</h1>
             <p className="col-lg-8 mx-auto fs-5 text-muted">
@@ -95,20 +95,19 @@ function Home() {
             </p>
             <h3> Contact No: +918888403292</h3>
             <h3>Email ID: altraavision@gmail.com</h3>
-            <div className="d-inline-flex gap-2 mb-5">
+            <div className="d-inline-flex gap-2 pt-2 pb-2">
               <button
                 className="d-inline-flex align-items-center btn btn-primary btn-lg px-4 rounded-pill"
                 type="button"
               >
                 Call to action
                 <svg className="bi ms-2" width="24" height="24">
-                  <use xlinkHref="#arrow-right-short"></use>
+                  <use xlinkHref="<contact/>"></use>
                 </svg>
               </button>
             </div>
           </div>
         </div>
-      </div>
     </div>
   );
 }

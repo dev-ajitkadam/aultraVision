@@ -9,14 +9,14 @@ function NavBar() {
   return (
     <div className="navbar pt-0">
       <Navbar
-        variant="light"
+        variant="dark"
         expand="lg"
         className="form-control-lg text-light bg-custom-color"
         style={{ border: 'none', borderRadius: 0 ,}}
       >
         <Container>
           <Navbar.Brand as={Link} to="/" className="mr-5 px-5 flex-fill text-light">
-            ALTRAAVISON
+            AltraaVision
           </Navbar.Brand>
 
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -37,7 +37,7 @@ function NavBar() {
               </Nav.Link>
             </Nav>
 
-            <div className="col-md-3 text-end">
+            <div className="col-md-3">
               <Button variant="outline-primary" className="me-2">
                 Login
               </Button>

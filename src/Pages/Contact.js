@@ -10,23 +10,23 @@ function Contact() {
                 <h1 className="display-5 fw-bold lh-1 text-body-emphasis mb-3 px-2 py-3">
                   LET'S BEGIN YOUR PROJECT WITH ALTRAAVISON TEST HOUSE PVT.LTD
                 </h1>
-                <p className="col-lg-10 px-1">
-                  Elevate your projects with ALTRAAVISON TEST HOUSE PVT. LTD,
-                  offering advanced Testing Services developed with precision in
-                  our state-of-the-art ISO certified laboratory. Our commitment
-                  to authenticity and integrity sets us apart. For unparalleled
-                  quality and a seamless experience, take advantage of our
-                  services. Contact us today
-                </p>
+                
+                <h3> Contact No: +918888403292</h3>
+            <h3>Email ID: altraavision@gmail.com</h3>
               </div>
-              <div className="col-md-10 mx-auto col-lg-5">
-                <form className="p-4 p-md-5 border rounded-3 bg-body-tertiary">
+              <div className="col-md-10 mx-auto col-lg-5 container">
+
+                {/* form contact us */}
+
+                <form  method='POST' className="p-4 p-md-5 border rounded-3 bg-body-tertiary">
                   <div className="form-floating mb-3">
                     <input
                       type="text"
                       className="form-control"
                       id="name"
                       placeholder="Your Name"
+                      autoComplete='off'
+                      required
                     />
                     <label htmlFor="name">Your Name</label>
                   </div>
@@ -36,6 +36,8 @@ function Contact() {
                       className="form-control"
                       id="email"
                       placeholder="name@example.com"
+                      autoComplete='off'
+                      required
                     />
                     <label htmlFor="email">Email address</label>
                   </div>
@@ -45,6 +47,8 @@ function Contact() {
                       className="form-control"
                       id="mobile"
                       placeholder="Mobile Number"
+                      autoComplete='off'
+                      required
                     />
                     <label htmlFor="mobile">Mobile Number</label>
                   </div>
@@ -53,18 +57,22 @@ function Contact() {
                       type="text"
                       className="form-control"
                       id="address"
-                      placeholder="Your Address"
+                      placeholder="Company Name"
+                      autoComplete='off'
+                      required
                     />
-                    <label htmlFor="address">Your Address</label>
+                    <label htmlFor="address">Company Name</label>
                   </div>
                   <div className="form-floating mb-3">
                     <textarea
                       className="form-control"
                       id="comments"
-                      placeholder="Comments"
+                      placeholder="Subject"
                       rows="4"
+                      autoComplete='off'
+                      required
                     ></textarea>
-                    <label htmlFor="comments">Comments</label>
+                    <label htmlFor="comments">Subject</label>
                   </div>
                   <button
                     className="w-100 btn btn-lg btn-primary"
@@ -73,6 +81,7 @@ function Contact() {
                     Submit
                   </button>
                 </form>
+
               </div>
             </div>
           </div>
